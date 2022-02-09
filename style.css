@@ -1,1 +1,37 @@
-!
+.body{ 
+    display: flex;
+    
+
+    .header{ 
+        display: flex;
+        border: 10px;
+        
+    }
+}
+.part1{
+    display: flex; 
+    background-color: #d199ab;; 
+    padding: 10px;
+
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+.row3{
+    display: flex;
+
+}
+.row4{
+    display: flex;
+    justify-content: space-between;
+}
+.row5{
+    display: flex;
+    justify-content: end;
+    background-color: grey;
+}
