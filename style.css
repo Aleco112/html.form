@@ -6,7 +6,9 @@
 .frame{
     margin: 60px; 
     padding: 20px;  
-    border:gray;
+    border-style: solid;
+    border-width:  1px;
+    border-color: grey;
    
     
     
