@@ -1,25 +1,43 @@
-.body{ 
+body{ 
     display: flex;
-    margin: 20px;
+    justify-content: center;
+    margin-top: 30px;
 }
     
-.frame{
-    margin: 60px; 
-    padding: 20px;  
+.frame { 
+    
     border-style: solid;
     border-width:  1px;
     border-color: grey;
+    width: 1000px;
+    height: 582x;
+    
    
     
     
    
 
 }
-    .header { 
+h1{
+    border: 1px solid gainsboro;
+    margin: 0px;
+    padding: 6px;
+    background-color: gainsboro;
+}
+
+
+.header { 
         display: flex;
         border: 10px;
+        margin: 0px;
+        border: 1px solid gainsboro;
      }
-
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px; 
+    padding: 2px;
+}
 
 .part1{
     display: flex; 
@@ -27,60 +45,31 @@
     padding: 10px;
 
 }
-.row1{
-    display: flex;
-    justify-content: space-around;
-}
-.row2{
-    display: flex;
-    justify-content: space-between;
-}
-.row3{
-    display: flex;
-
-}
-.row4{
-    display: flex;
-    justify-content: space-between;
-}
-.row5{
+footer{
     display: flex;
     justify-content: end;
-    background-color: rgba(128, 128, 128, 0.589);
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 10px;
+    border: 2px solid gainsboro;
+    height: 40px;
+    margin-bottom: 0px;
 }
-<style>
-.widthHalf {
-    width: 50%;
+.check{
+    margin: 10px;
+    size: 10px;
+
 }
 
-.quaterWidth {
-    width: 20%;
+label{
+    margin: 2px;
+    padding: 10px;
+}
+.card{
+    background-color: gainsboro;
+    margin: 18px;
+    border: 2px solid gainsboro;
+    padding: 0px;
+    width: 43%;
 }
 
-.thirdWidth {
-    width: 30%;
-}
 
-input[type=text] {
-    width: 100%;
-}
-
-.column {
-    width: 50%;
-}
-.column1{
-   width: 50%;
-}
-.column2{
-    width: 25%;
-}
-.column3{
-    width: 25%;
-}
-.column4{
-width: 50%;
-}
-.column5{
-    width: 50%;
-}
-</style>

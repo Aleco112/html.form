@@ -41,6 +41,7 @@
         }
         .column4{
         width: 50%;
+        
         }
         .column5{
             width: 50%;
@@ -50,28 +51,29 @@
 
 <body>
     <form class="frame">
-        <H1 style="background-color: gainsboro; margin: 6px; padding: 5px;">Payment form example</H1>
+        <H1>Payment form example</H1>
 
 
         <div class="part1"> Some fields are missing</div>
 
         <sections class="mainsection">
-            <section class="row1">
+            <section class="row">
                 <label class="widthHalf">
                     <div>Card#</div>
-                    <input name="card" id="Card" type="text" />
+                    <input name="card" placeholder="xxxxxxxxxxxx" id="Card" type="text" />
                 </label>
                 <label class="quaterWidth">
                     <div>cvc#</div>
-                    <input name="cvc" id="cvc" type="text">
+                    <input name="cvc" placeholder="000" id="cvc#" type="text">
                 </label>
                 <label class="thirdWidth">
                     <div>Amount</div>
-                    <input name="Amount" id="Amount" type="text">
+                    <input name="Amount" placeholder="Amount" id="Amount" type="text">
+                    
                 </label>
             </section>
 
-            <section class="row2">
+            <section class="row">
 
                 <label class="column">
                     <div>First Name</div>
@@ -83,7 +85,7 @@
                 </label>
             </section>
 
-            <section class="row3">
+            <section class="row">
                 <label class="column1">
                     <div>city</div>
                     <input name=" city " id="city" type="text">
@@ -96,7 +98,7 @@
                         <option value="Alabama"> Alabama </option>
                         <option value="colorado"> colorado </option>
                         <option value="California"> California </option>
-                        <option value="Florida">Floriad</option>
+                        <option value="Florida">Florida</option>
                         <option value="Texas">Texas</option>
 
 
@@ -109,10 +111,11 @@
 
             </section>
 
-            <section class="row4">
+            <section class="row">
 
                 <label class="column4">
                     <div>We accept:</div>
+                    <section class="card">
                     <input type="radio" name="WEaccept">
                     <i class="fa-brands fa-cc-mastercard"></i>
                     <input type="radio" name="WEaccept">
@@ -122,6 +125,7 @@
                     <i class="fa-brands fa-cc-diners-club"></i>
                     <input type="radio" name="WEaccept">
                     <i class="fa-brands fa-cc-amex"></i>
+                </section>
                 </label>
 
                 <label class="column5">
@@ -131,10 +135,12 @@
                 </label>
 
             </section>
-            <section class="row5">
+            <footer>
+                <div class="check">
                 <button style="color: white; background-color: rgba(128, 128, 128, 0.918);">Cance</button>
                 <button style="color:white; background-color:rgba(0, 0, 255, 0.452);">Send</button>
-            </section>
+            </div>
+            </footer> 
 
             </section>
 
